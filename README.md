@@ -13,5 +13,11 @@ The four characters in a FOURCC is generally limited to be within the human read
 
 Some of the more well known FOURCCs include "DIVX", "XVID", "H264", "DX50". But these are just a few of the hundreds
 
+There are 3 sections
+ * Audio for Audio codecs
+ * Video for Video codecs
+ * Subtitles for subtitles
+
+
 Any that are missing or wrong please fork and send us a pull request.
 
