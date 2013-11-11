@@ -19,5 +19,16 @@ There are 3 sections
  * Subtitles for subtitles
 
 
+Usage
+-----
+
+```
+var fourCC = new FourCC();
+var fcc = fourCC.find_fourcc("AVdn");
+
+> "DNxHD"
+
+```
+
 Any that are missing or wrong please fork and send us a pull request.
 

@@ -1,4 +1,4 @@
-{
+var FOUR_CC = {
    "subtitles": 
     {
         "spu ":"DVD Subtitles",
@@ -562,4 +562,14 @@
         "f64b":"64 bits float BE",
         "TWIN":"TwinVQ"
     }
+}
+
+function FourCC(){
+    this.FOUR_CC = FOUR_CC;
+}
+
+FourCC.prototype.find_fourcc = function(fourcc){
+    return FOUR_CC['subtitles'][fourcc]
+        ||FOUR_CC['video'][fourcc]
+        ||FOUR_CC['audio'][fourcc];
 }
