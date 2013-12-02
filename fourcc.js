@@ -436,7 +436,17 @@ var FOUR_CC = {
         "MTGA":"Truevision Targa Image",
         "sgi ":"SGI Image",
         "pnm ":"Portable Anymap Image",
-        "pcx ":"Personal Computer Exchange Image"
+        "pcx ":"Personal Computer Exchange Image",
+        "apch":"Apple ProRes 422 High Quality BE",
+        "hcpa":"Apple ProRes 422 High Quality LE",
+        "apcn":"Apple ProRes 422 Standard Definition BE",
+        "ncpa":"Apple ProRes 422 Standard Definition LE",
+        "apcs":"Apple ProRes 422 LT BE",
+        "scpa":"Apple ProRes 422 LT LE",
+        "apco":"Apple ProRes 422 Proxy BE",
+        "ocpa":"Apple ProRes 422 Proxy LE",
+        "ap4h":"Apple ProRes 444 BE",
+        "h4pa":"Apple ProRes 444 LE"
     },
     "audio": 
     {
