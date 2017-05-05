@@ -357,7 +357,7 @@ var FOUR_CC = {
         "AVs2":"Chinese AVS",
         "avs2":"Chinese AVS",
         "AVdn":"DNxHD",
-        "AVdh","DNxHR",
+        "AVdh":"DNxHR",
         "8BPS":"8BPS",
         "ML2O":"Mimic",
         "CDG ":"CD-G Video",
