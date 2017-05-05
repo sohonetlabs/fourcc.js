@@ -449,9 +449,7 @@ var FOUR_CC = {
         "ap4h":"Apple ProRes 444 BE",
         "h4pa":"Apple ProRes 444 LE",
         "pxlt":"Apple Pixlet",
-        "CFHD":"Cineform",
-        
-        
+        "CFHD":"Cineform"
     },
     "audio": 
     {
