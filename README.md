@@ -32,3 +32,4 @@ var fcc = fourCC.find_fourcc("AVdn");
 
 Any that are missing or wrong please fork and send us a pull request.
 based off http://www.videolan.org/developers/vlc/src/misc/fourcc.c
+http://git.videolan.org/gitweb.cgi/vlc.git/?p=vlc.git;a=blob;f=include/vlc_fourcc.h
