@@ -38,3 +38,7 @@ http://www.videolan.org/developers/vlc/src/misc/fourcc.c
 http://git.videolan.org/gitweb.cgi/vlc.git/?p=vlc.git;a=blob;f=include/vlc_fourcc.h
 
 https://github.com/jawnsy/Video-FourCC-Info
+
+https://softron.zendesk.com/hc/en-us/articles/207695697-List-of-FourCC-codes-for-video-codecs
+
+
