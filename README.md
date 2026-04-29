@@ -31,14 +31,23 @@ var fcc = fourCC.find_fourcc("AVdn");
 ```
 
 Any that are missing or wrong please fork and send us a pull request.
-based off 
 
-http://www.videolan.org/developers/vlc/src/misc/fourcc.c
+Sources
+-------
 
-http://git.videolan.org/gitweb.cgi/vlc.git/?p=vlc.git;a=blob;f=include/vlc_fourcc.h
+Original list based on:
 
-https://github.com/jawnsy/Video-FourCC-Info
+- VLC fourcc tables: <http://www.videolan.org/developers/vlc/src/misc/fourcc.c>
+- VLC fourcc header: <http://git.videolan.org/gitweb.cgi/vlc.git/?p=vlc.git;a=blob;f=include/vlc_fourcc.h>
+- Video FourCC Info: <https://github.com/jawnsy/Video-FourCC-Info>
+- Softron FourCC list: <https://softron.zendesk.com/hc/en-us/articles/207695697-List-of-FourCC-codes-for-video-codecs>
 
-https://softron.zendesk.com/hc/en-us/articles/207695697-List-of-FourCC-codes-for-video-codecs
+2026 modern-codec update sourced from:
 
+- MP4 Registration Authority codec registry: <https://mp4ra.org/registered-types/codecs>
+- FFmpeg `libavformat/isom_tags.c` (MOV/MP4 tags): <https://github.com/FFmpeg/FFmpeg/blob/master/libavformat/isom_tags.c>
+- FFmpeg `libavformat/riff.c` (AVI/RIFF/WAV tags): <https://github.com/FFmpeg/FFmpeg/blob/master/libavformat/riff.c>
+- AOMedia AV2 specification: <https://av2.aomedia.org/>
+- AV1 ISOBMFF binding: <https://aomediacodec.github.io/av1-isobmff/>
+- Open APV ISOBMFF binding: <https://github.com/AcademySoftwareFoundation/openapv/blob/main/readme/apv_isobmff.md>
 
